@@ -208,10 +208,14 @@ class AccountSettingRenderBody extends PureComponent<Props, State> {
         title={t('account.settings.title')}
         render={() => (
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Fragment>
 =======
           <form onSubmit={this.handleSubmit(account, onClose)}>
 >>>>>>> Initial version
+=======
+          <Fragment>
+>>>>>>> a926e59e87e4c3a205572ef7ff5c7844dcd2b7e0
             <TrackPage category="Modal" name="AccountSettings" />
             <Container>
               <Box>
@@ -301,11 +305,16 @@ class AccountSettingRenderBody extends PureComponent<Props, State> {
               desc={t('settings.removeAccountModal.desc')}
             />
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Space of={20} />
           </Fragment>
 =======
           </form>
 >>>>>>> Initial version
+=======
+            <Space of={20} />
+          </Fragment>
+>>>>>>> a926e59e87e4c3a205572ef7ff5c7844dcd2b7e0
         )}
         renderFooter={() => (
           <Fragment>

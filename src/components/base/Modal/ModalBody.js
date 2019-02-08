@@ -91,10 +91,14 @@ const GRADIENT_STYLE = {
   bottom: 0,
   left: 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
   right: 20,
 =======
   right: 6,
 >>>>>>> Initial version
+=======
+  right: 20,
+>>>>>>> a926e59e87e4c3a205572ef7ff5c7844dcd2b7e0
 }
 
 const GRADIENT_WRAPPER_STYLE = {

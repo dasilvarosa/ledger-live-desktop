@@ -15,10 +15,6 @@ import { developerModeSelector } from 'reducers/settings'
 import installApp from 'commands/installApp'
 import uninstallApp from 'commands/uninstallApp'
 import Box from 'components/base/Box'
-<<<<<<< HEAD
-=======
-import Space from 'components/base/Space'
->>>>>>> Initial version
 import Modal from 'components/base/Modal'
 import Tooltip from 'components/base/Tooltip'
 import Text from 'components/base/Text'
@@ -262,42 +258,25 @@ class AppsList extends PureComponent<Props, State> {
 
   renderFooter = () => {
     const { t } = this.props
-<<<<<<< HEAD
     return (
-=======
-    const { status } = this.state
-    return ['error', 'success'].includes(status) ? (
->>>>>>> Initial version
       <Box horizontal justifyContent="flex-end" style={{ width: '100%' }}>
         <Button primary onClick={this.handleCloseModal}>
           {t('common.close')}
         </Button>
       </Box>
-<<<<<<< HEAD
     )
-=======
-    ) : null
->>>>>>> Initial version
   }
 
   renderModal = () => {
     const { status } = this.state
     return (
-<<<<<<< HEAD
       <Modal isOpened={status !== 'idle' && status !== 'loading'} centered>
-=======
-      <Modal isOpened={status !== 'idle' && status !== 'loading'}>
->>>>>>> Initial version
         <ModalBody
           align="center"
           justify="center"
           title={''}
           render={this.renderBody}
-<<<<<<< HEAD
           renderFooter={['error', 'success'].includes(status) ? this.renderFooter : undefined}
-=======
-          renderFooter={this.renderFooter}
->>>>>>> Initial version
         >
           <FreezeDeviceChangeEvents />
         </ModalBody>
